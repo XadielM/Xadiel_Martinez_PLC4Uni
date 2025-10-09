@@ -99,7 +99,7 @@
 	(footprint "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-18P_1x18_P5.00mm"
 		(layer "F.Cu")
 		(uuid "a7371af5-d772-49f7-8ca2-a98aa06b65e8")
-		(at 70.75 112.9675)
+		(at 70.5 112.9675)
 		(descr "terminal block MaiXu MX126-5.0-18P, 18 pins, pitch 5mm, size 90.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu")
 		(tags "THT terminal block MaiXu MX126-5.0-18P pitch 5mm size 90.5x7.8mm drill 1.3mm pad 2.8mm")
 		(property "Reference" "J2"
