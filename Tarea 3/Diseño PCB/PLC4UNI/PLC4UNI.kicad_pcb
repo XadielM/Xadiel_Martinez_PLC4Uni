@@ -1717,7 +1717,6 @@
 			)
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
-		(path "/30173d9c-8332-465f-a022-c04588047aee")
 		(sheetname "/")
 		(sheetfile "PLC4UNI.kicad_sch")
 		(attr through_hole)
