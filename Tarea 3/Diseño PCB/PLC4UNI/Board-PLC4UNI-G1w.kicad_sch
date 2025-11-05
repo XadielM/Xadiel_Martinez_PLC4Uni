@@ -183,16 +183,6 @@
 				(justify left top)
 			)
 		)
-		(pin "IN+" input
-			(at 15.24 19.05 180)
-			(uuid "2bd8df54-7686-4d58-b1df-ed5e0257feac")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "OUT" output
 			(at 31.75 19.05 0)
 			(uuid "087c496a-a890-4932-bb66-548e73d550cf")
@@ -201,6 +191,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 15.24 19.05 180)
+			(uuid "5648d11f-e6f5-401c-84d8-c68b3120d041")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -245,16 +245,6 @@
 				(justify left top)
 			)
 		)
-		(pin "IN+" input
-			(at 15.24 29.21 180)
-			(uuid "55b06183-8acb-4e46-bb7e-5738c07c8313")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "OUT" output
 			(at 31.75 29.21 0)
 			(uuid "ed6caea1-ee3b-4792-9017-d98af5c89ed4")
@@ -263,6 +253,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 15.24 29.21 180)
+			(uuid "265ca657-637f-4434-b450-21cb702a250d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -331,6 +331,68 @@
 			(project "PLC4UNI"
 				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212"
 					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 26.67)
+		(size 16.51 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4e51fc65-aa7b-452d-b354-c74ca71c9938")
+		(property "Sheetname" "input_PNP1"
+			(at 74.93 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "input_PNP.kicad_sch"
+			(at 74.93 32.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 74.93 29.21 180)
+			(uuid "3d6a1ba3-f166-4902-9b3b-aae00bf34e1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 91.44 29.21 0)
+			(uuid "134f1008-40fd-4be2-b9fd-04482d15bd81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PLC4UNI"
+				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212"
+					(page "15")
 				)
 			)
 		)
@@ -490,6 +552,68 @@
 		)
 	)
 	(sheet
+		(at 74.93 38.1)
+		(size 16.51 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6df709e0-2273-40bc-807d-6405393f3ba9")
+		(property "Sheetname" "input_PNP2"
+			(at 74.93 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "input_PNP.kicad_sch"
+			(at 74.93 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 74.93 40.64 180)
+			(uuid "7940ecb2-71b7-43e6-8eee-4909282c2972")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 91.44 40.64 0)
+			(uuid "0f75cece-af22-4f68-8d14-c788c8618cd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PLC4UNI"
+				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 74.93 16.51)
 		(size 16.51 5.08)
 		(exclude_from_sim no)
@@ -585,16 +709,6 @@
 				(justify left top)
 			)
 		)
-		(pin "IN+" input
-			(at 15.24 39.37 180)
-			(uuid "d81614c3-99a5-44d2-82fe-a4b432453702")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "OUT" output
 			(at 31.75 39.37 0)
 			(uuid "c923b012-afa3-4528-9d9e-a18462c10840")
@@ -603,6 +717,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 15.24 39.37 180)
+			(uuid "44d1f925-2c55-4fc7-8301-5facdb8be281")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

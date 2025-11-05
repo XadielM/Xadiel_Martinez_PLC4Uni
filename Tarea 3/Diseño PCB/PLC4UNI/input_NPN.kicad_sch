@@ -1063,7 +1063,7 @@
 		)
 		(uuid "b9ddc788-c6f4-4586-9ee9-03efdad1eccc")
 	)
-	(hierarchical_label "IN+"
+	(hierarchical_label "IN"
 		(shape input)
 		(at 82.55 78.74 180)
 		(effects
