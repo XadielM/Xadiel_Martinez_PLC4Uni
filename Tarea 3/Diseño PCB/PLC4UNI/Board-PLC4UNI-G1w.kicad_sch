@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 140.97 87.63) (xy 161.29 87.63)
+			(xy 194.31 60.96) (xy 219.71 60.96)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 101.6) (xy 193.04 101.6)
+			(xy 241.3 74.93) (xy 248.92 74.93)
 		)
 		(stroke
 			(width 0)
@@ -27,37 +27,37 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 99.06) (xy 193.04 99.06)
+			(xy 194.31 63.5) (xy 219.71 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "559e7968-2b8b-4955-b35e-4ae3cd8c8a72")
+		(uuid "74f28266-7c1d-45e3-98db-ea30e3c9e2ca")
 	)
 	(wire
 		(pts
-			(xy 140.97 90.17) (xy 161.29 90.17)
+			(xy 194.31 66.04) (xy 219.71 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69e4baaa-723b-4865-b525-cdcc0bc8a24c")
+		(uuid "760bb2d5-1e3f-45d9-bc71-9b1c66fd9779")
 	)
 	(wire
 		(pts
-			(xy 140.97 92.71) (xy 161.29 92.71)
+			(xy 241.3 72.39) (xy 248.92 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd6d7ffe-a0d0-4da5-9f86-36c1597fea0a")
+		(uuid "db0b88be-9cb1-464f-9ba4-40d4931b3e98")
 	)
 	(hierarchical_label "con_RS485_B"
 		(shape bidirectional)
-		(at 193.04 101.6 0)
+		(at 248.92 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -68,7 +68,7 @@
 	)
 	(hierarchical_label "con_RS485_A"
 		(shape bidirectional)
-		(at 193.04 99.06 0)
+		(at 248.92 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -78,8 +78,8 @@
 		(uuid "602ad4dc-ae30-485e-a981-cbe7d68831a1")
 	)
 	(sheet
-		(at 116.84 82.55)
-		(size 24.13 17.78)
+		(at 151.13 57.15)
+		(size 43.18 85.09)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -94,7 +94,7 @@
 		)
 		(uuid "0abc54fd-64d8-4166-84c0-cb5e26dc216c")
 		(property "Sheetname" "PLC4UNI_CPU"
-			(at 116.84 81.8384 0)
+			(at 151.13 56.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103,7 +103,7 @@
 			)
 		)
 		(property "Sheetfile" "PLC4UNI_CPU.kicad_sch"
-			(at 116.84 100.9146 0)
+			(at 151.13 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -112,7 +112,7 @@
 			)
 		)
 		(pin "micro_RS485_rx" input
-			(at 140.97 90.17 0)
+			(at 194.31 63.5 0)
 			(uuid "fb3aea04-d5fa-4a47-b177-aba25334c881")
 			(effects
 				(font
@@ -122,7 +122,7 @@
 			)
 		)
 		(pin "micro_RS485_tx" output
-			(at 140.97 92.71 0)
+			(at 194.31 66.04 0)
 			(uuid "7445bef0-3239-465e-8d08-a82f19fe98f7")
 			(effects
 				(font
@@ -132,7 +132,7 @@
 			)
 		)
 		(pin "micro_RS485_control" output
-			(at 140.97 87.63 0)
+			(at 194.31 60.96 0)
 			(uuid "b33b59fc-c6e4-41c0-b889-ca991af225b6")
 			(effects
 				(font
@@ -150,8 +150,8 @@
 		)
 	)
 	(sheet
-		(at 15.24 16.51)
-		(size 16.51 5.08)
+		(at 26.67 19.05)
+		(size 19.05 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -166,7 +166,7 @@
 		)
 		(uuid "16310002-096d-49db-8baf-b59f1f963118")
 		(property "Sheetname" "input_NPN"
-			(at 15.24 15.7984 0)
+			(at 26.67 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -175,7 +175,7 @@
 			)
 		)
 		(property "Sheetfile" "input_NPN.kicad_sch"
-			(at 15.24 22.1746 0)
+			(at 26.67 42.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -183,9 +183,39 @@
 				(justify left top)
 			)
 		)
-		(pin "OUT" output
-			(at 31.75 19.05 0)
-			(uuid "087c496a-a890-4932-bb66-548e73d550cf")
+		(pin "IN_NPN_A_IN" input
+			(at 26.67 21.59 180)
+			(uuid "c8782458-20cb-4b62-8db9-4ba48726f28f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_NPN_B_IN" input
+			(at 26.67 24.13 180)
+			(uuid "45ae5ade-5d16-49d8-ab31-f1683e371408")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_NPN_C_IN" input
+			(at 26.67 26.67 180)
+			(uuid "1c4e2493-ce6e-4e0a-8cd0-28ba00da234f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_NPN_A_IN" output
+			(at 45.72 34.29 0)
+			(uuid "67d67757-d8aa-4a23-845f-35b6ae4443c2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -193,14 +223,24 @@
 				(justify right)
 			)
 		)
-		(pin "IN" input
-			(at 15.24 19.05 180)
-			(uuid "5648d11f-e6f5-401c-84d8-c68b3120d041")
+		(pin "OUT_NPN_B_IN" output
+			(at 45.72 36.83 0)
+			(uuid "3ff99d22-cf9a-431a-b0e0-ef5479f2c806")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(pin "OUT_NPN_C_IN" output
+			(at 45.72 39.37 0)
+			(uuid "ac4a38c8-1a53-4678-9b99-1fb3d3597d88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -212,70 +252,8 @@
 		)
 	)
 	(sheet
-		(at 15.24 26.67)
-		(size 16.51 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "33409d63-7e5e-4bef-8bf2-aa51571af006")
-		(property "Sheetname" "input_NPN1"
-			(at 15.24 25.9584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "input_NPN.kicad_sch"
-			(at 15.24 32.3346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "OUT" output
-			(at 31.75 29.21 0)
-			(uuid "ed6caea1-ee3b-4792-9017-d98af5c89ed4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IN" input
-			(at 15.24 29.21 180)
-			(uuid "265ca657-637f-4434-b450-21cb702a250d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "PLC4UNI"
-				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 44.45 16.51)
-		(size 16.51 5.08)
+		(at 26.67 48.26)
+		(size 19.05 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -290,7 +268,7 @@
 		)
 		(uuid "43ce1ef9-8bd5-4b98-b7f8-72b77fd219fe")
 		(property "Sheetname" "output_NPN"
-			(at 44.45 15.7984 0)
+			(at 26.67 47.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -299,7 +277,7 @@
 			)
 		)
 		(property "Sheetfile" "output_NPN.kicad_sch"
-			(at 44.45 22.1746 0)
+			(at 26.67 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -307,9 +285,9 @@
 				(justify left top)
 			)
 		)
-		(pin "IN" input
-			(at 44.45 19.05 180)
-			(uuid "2a493266-c9e6-428b-8640-b0ceeb4bb39b")
+		(pin "IN_NPN_A_OUT" input
+			(at 26.67 50.8 180)
+			(uuid "3d8a1cd7-d67c-48e9-9554-71cef6d1f5b7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -317,9 +295,49 @@
 				(justify left)
 			)
 		)
-		(pin "OUT" output
-			(at 60.96 19.05 0)
-			(uuid "683d820c-ac03-405e-9347-c54ddade8aac")
+		(pin "IN_NPN_B_OUT" input
+			(at 26.67 53.34 180)
+			(uuid "565fb903-b13c-444f-8bb1-869fc800dcfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_NPN_C_OUT" input
+			(at 26.67 55.88 180)
+			(uuid "b8dd8ac3-3f5f-4d1d-9bfe-52b8057b5c10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_NPN_A_OUT" output
+			(at 45.72 64.77 0)
+			(uuid "63aa43ae-838b-4bc4-9fbd-05bbd05f9afd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_NPN_B_OUT" output
+			(at 45.72 67.31 0)
+			(uuid "f7e9af0b-ffb3-4a4d-a7fe-5c8eff2d28bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_NPN_C_OUT" output
+			(at 45.72 69.85 0)
+			(uuid "5a00a4c9-c88a-408c-93f1-86c86275da3f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -336,70 +354,8 @@
 		)
 	)
 	(sheet
-		(at 74.93 26.67)
-		(size 16.51 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "4e51fc65-aa7b-452d-b354-c74ca71c9938")
-		(property "Sheetname" "input_PNP1"
-			(at 74.93 25.9584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "input_PNP.kicad_sch"
-			(at 74.93 32.3346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "IN" input
-			(at 74.93 29.21 180)
-			(uuid "3d6a1ba3-f166-4902-9b3b-aae00bf34e1d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUT" output
-			(at 91.44 29.21 0)
-			(uuid "134f1008-40fd-4be2-b9fd-04482d15bd81")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "PLC4UNI"
-				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212"
-					(page "15")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 104.14 16.51)
-		(size 16.51 5.08)
+		(at 59.69 48.26)
+		(size 19.05 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -414,7 +370,7 @@
 		)
 		(uuid "63cb2e67-2ffd-4acd-9756-75a094e0b542")
 		(property "Sheetname" "output_PNP"
-			(at 104.14 15.7984 0)
+			(at 59.69 47.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -423,7 +379,7 @@
 			)
 		)
 		(property "Sheetfile" "output_PNP.kicad_sch"
-			(at 104.14 22.1746 0)
+			(at 59.69 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -431,9 +387,9 @@
 				(justify left top)
 			)
 		)
-		(pin "IN" input
-			(at 104.14 19.05 180)
-			(uuid "e9814019-0919-4254-835c-bc90609ebbee")
+		(pin "IN_PNP_A_OUT" input
+			(at 59.69 50.8 180)
+			(uuid "75707ae5-a38d-44b2-8e05-66adc3a6a836")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -441,9 +397,49 @@
 				(justify left)
 			)
 		)
-		(pin "OUT" output
-			(at 120.65 19.05 0)
-			(uuid "4c67bdf8-0d6a-41bd-bc23-e7849ecc16d5")
+		(pin "IN_PNP_B_OUT" input
+			(at 59.69 53.34 180)
+			(uuid "0422755d-263a-4c38-a7af-c7d1046a09e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_PNP_C_OUT" input
+			(at 59.69 55.88 180)
+			(uuid "d3b4cadb-050f-4d2b-a4de-b8e044b9ce17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_PNP_A_OUT" output
+			(at 78.74 64.77 0)
+			(uuid "47351ba8-c4bc-4a38-9891-575030838e9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_PNP_B_OUT" output
+			(at 78.74 67.31 0)
+			(uuid "fdcc44d7-4131-4e83-be36-03546d6362d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_PNP_C_OUT" output
+			(at 78.74 69.85 0)
+			(uuid "eee9842d-104b-43eb-afe7-7616ca152961")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -460,7 +456,7 @@
 		)
 	)
 	(sheet
-		(at 161.29 85.09)
+		(at 219.71 58.42)
 		(size 21.59 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -476,7 +472,7 @@
 		)
 		(uuid "6c016706-f816-42bf-abad-bfc6fd2e80d7")
 		(property "Sheetname" "rs485_module_protect"
-			(at 161.29 84.3784 0)
+			(at 219.71 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -485,7 +481,7 @@
 			)
 		)
 		(property "Sheetfile" "rs485_module_protect.kicad_sch"
-			(at 161.29 103.4546 0)
+			(at 219.71 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -494,7 +490,7 @@
 			)
 		)
 		(pin "CON" input
-			(at 161.29 87.63 180)
+			(at 219.71 60.96 180)
 			(uuid "9353d0d7-c04b-4f38-971f-b1e08e57b72b")
 			(effects
 				(font
@@ -504,7 +500,7 @@
 			)
 		)
 		(pin "con_A" bidirectional
-			(at 182.88 99.06 0)
+			(at 241.3 72.39 0)
 			(uuid "512312b2-1799-460e-b359-e1a9ca4670b2")
 			(effects
 				(font
@@ -514,7 +510,7 @@
 			)
 		)
 		(pin "con_B" bidirectional
-			(at 182.88 101.6 0)
+			(at 241.3 74.93 0)
 			(uuid "74f7c2e2-0214-4501-b91c-d1710f1f82ef")
 			(effects
 				(font
@@ -524,7 +520,7 @@
 			)
 		)
 		(pin "DI" input
-			(at 161.29 92.71 180)
+			(at 219.71 66.04 180)
 			(uuid "fd6c4547-408b-4cd8-ab24-91474c3f3307")
 			(effects
 				(font
@@ -534,7 +530,7 @@
 			)
 		)
 		(pin "DO" output
-			(at 161.29 90.17 180)
+			(at 219.71 63.5 180)
 			(uuid "56e26528-f5bc-4b4e-9739-36e34f45a093")
 			(effects
 				(font
@@ -552,70 +548,8 @@
 		)
 	)
 	(sheet
-		(at 74.93 38.1)
-		(size 16.51 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "6df709e0-2273-40bc-807d-6405393f3ba9")
-		(property "Sheetname" "input_PNP2"
-			(at 74.93 37.3884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "input_PNP.kicad_sch"
-			(at 74.93 43.7646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "IN" input
-			(at 74.93 40.64 180)
-			(uuid "7940ecb2-71b7-43e6-8eee-4909282c2972")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUT" output
-			(at 91.44 40.64 0)
-			(uuid "0f75cece-af22-4f68-8d14-c788c8618cd5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "PLC4UNI"
-				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212"
-					(page "16")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 74.93 16.51)
-		(size 16.51 5.08)
+		(at 59.69 19.05)
+		(size 19.05 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -630,7 +564,7 @@
 		)
 		(uuid "80a04f97-522b-4c03-8f09-5c43b84b1780")
 		(property "Sheetname" "input_PNP"
-			(at 74.93 15.7984 0)
+			(at 59.69 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -639,7 +573,7 @@
 			)
 		)
 		(property "Sheetfile" "input_PNP.kicad_sch"
-			(at 74.93 22.1746 0)
+			(at 59.69 42.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -647,9 +581,9 @@
 				(justify left top)
 			)
 		)
-		(pin "IN" input
-			(at 74.93 19.05 180)
-			(uuid "7cef031f-278c-41b0-ae23-76deda2dc2d5")
+		(pin "IN_PNP_A_IN" input
+			(at 59.69 21.59 180)
+			(uuid "c5e442a7-ddc2-43ee-989b-be7af829a067")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -657,9 +591,49 @@
 				(justify left)
 			)
 		)
-		(pin "OUT" output
-			(at 91.44 19.05 0)
-			(uuid "789f5461-86a0-4a41-9206-cfd704569d45")
+		(pin "IN_PNP_B_IN" input
+			(at 59.69 24.13 180)
+			(uuid "836dbe6d-c1ac-4539-a9ac-9169671940cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_PNP_C_IN" input
+			(at 59.69 26.67 180)
+			(uuid "ae6c4015-3e5f-4106-b2aa-cf15a6cd06e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_PNP_A_IN" output
+			(at 78.74 34.29 0)
+			(uuid "4d2c8d78-b982-470c-9dd8-89d176b3a2d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_PNP_B_IN" output
+			(at 78.74 36.83 0)
+			(uuid "0c7c476e-e5f5-493c-a414-e87da55ec074")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_PNP_C_IN" output
+			(at 78.74 39.37 0)
+			(uuid "89adb979-bbca-4f7b-b132-be0afb1a22f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -671,68 +645,6 @@
 			(project "PLC4UNI"
 				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212"
 					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 15.24 36.83)
-		(size 16.51 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b647677a-5fe1-42aa-95b7-c6e58f0fbe85")
-		(property "Sheetname" "input_NPN2"
-			(at 15.24 36.1184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "input_NPN.kicad_sch"
-			(at 15.24 42.4946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "OUT" output
-			(at 31.75 39.37 0)
-			(uuid "c923b012-afa3-4528-9d9e-a18462c10840")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IN" input
-			(at 15.24 39.37 180)
-			(uuid "44d1f925-2c55-4fc7-8301-5facdb8be281")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "PLC4UNI"
-				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212"
-					(page "11")
 				)
 			)
 		)
