@@ -619,16 +619,8 @@
       "Board-PLC4UNI-G1w"
     ],
     [
-      "6c016706-f816-42bf-abad-bfc6fd2e80d7",
-      "rs485_module_protect"
-    ],
-    [
       "0abc54fd-64d8-4166-84c0-cb5e26dc216c",
       "PLC4UNI_CPU"
-    ],
-    [
-      "ecff36aa-ab77-4fdd-bdee-e79ecbb8f424",
-      "RS485_PROTECTION"
     ],
     [
       "16310002-096d-49db-8baf-b59f1f963118",
@@ -641,6 +633,22 @@
     [
       "63cb2e67-2ffd-4acd-9756-75a094e0b542",
       "output_PNP"
+    ],
+    [
+      "ce8b4c1c-77b2-48e0-805e-4bb6e1a61f3d",
+      "RS485"
+    ],
+    [
+      "812e1e6b-f469-4350-997f-b064b6b76a93",
+      "PowerSupply"
+    ],
+    [
+      "ec8632aa-3218-45e0-ae7a-5e64b93ba420",
+      "0-10V_Output"
+    ],
+    [
+      "c6f11de6-78f4-42d1-a85c-0213899a0362",
+      "4-20mA"
     ],
     [
       "43ce1ef9-8bd5-4b98-b7f8-72b77fd219fe",
