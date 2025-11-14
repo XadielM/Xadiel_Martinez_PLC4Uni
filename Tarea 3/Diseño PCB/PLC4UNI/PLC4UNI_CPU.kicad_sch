@@ -2428,6 +2428,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 96.52) (xy 165.1 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55dcdb66-9d0a-4dd1-9d78-0c75bb9cbce4")
+	)
+	(wire
+		(pts
 			(xy 114.3 104.14) (xy 125.73 104.14)
 		)
 		(stroke
@@ -2488,6 +2498,26 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 101.6) (xy 165.1 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81582a1e-e93d-4b24-b784-05c6505c3fd3")
+	)
+	(wire
+		(pts
+			(xy 156.21 104.14) (xy 165.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d641c45-58ec-4dbc-bf9f-8df8135d4bd3")
+	)
+	(wire
+		(pts
 			(xy 114.3 78.74) (xy 125.73 78.74)
 		)
 		(stroke
@@ -2528,6 +2558,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 109.22) (xy 165.1 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ace9ed3f-701e-4444-84de-5377d991009e")
+	)
+	(wire
+		(pts
 			(xy 68.58 67.31) (xy 69.85 67.31)
 		)
 		(stroke
@@ -2545,6 +2585,16 @@
 			(type default)
 		)
 		(uuid "b4bfb5d4-f335-48a0-bc1a-2f223e50399b")
+	)
+	(wire
+		(pts
+			(xy 156.21 106.68) (xy 165.1 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f00e41-4f2c-424c-b87e-a2e4d5c0146c")
 	)
 	(wire
 		(pts
@@ -2595,6 +2645,16 @@
 			(type default)
 		)
 		(uuid "def51f5b-9631-401a-a37f-428cf7c29224")
+	)
+	(wire
+		(pts
+			(xy 156.21 99.06) (xy 165.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58b7235-4cd1-449e-a617-a16421a72c50")
 	)
 	(wire
 		(pts
@@ -2699,6 +2759,17 @@
 		)
 		(uuid "239b5d2d-f53f-49b2-927e-7f687d40d5bb")
 	)
+	(hierarchical_label "FROMESP_IN_OUT-NPN_B"
+		(shape input)
+		(at 165.1 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27cb338e-f674-4a3f-bb44-e0774cf49c58")
+	)
 	(hierarchical_label "FROMESP_SEL_VOUT"
 		(shape output)
 		(at 114.3 91.44 180)
@@ -2709,6 +2780,17 @@
 			(justify right)
 		)
 		(uuid "3b29f7c9-0a01-4867-8c81-60c1b5632e7b")
+	)
+	(hierarchical_label "FROMESP_IN_OUT-PNP_B"
+		(shape input)
+		(at 165.1 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3eeda7c7-c46a-485c-a391-1154b5438070")
 	)
 	(hierarchical_label "FROMESP_OUT_IN-NPN_B"
 		(shape input)
@@ -2754,6 +2836,17 @@
 		)
 		(uuid "6e91a4f6-7722-45f8-93a0-dee4740b2b2d")
 	)
+	(hierarchical_label "FROMESP_IN_OUT-PNP_C"
+		(shape input)
+		(at 165.1 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70d25666-b2cd-4c3f-99d9-e1c9cfa2968a")
+	)
 	(hierarchical_label "FROMESP_SDA_C"
 		(shape input)
 		(at 168.91 114.3 0)
@@ -2776,6 +2869,17 @@
 		)
 		(uuid "7862f99f-795a-4990-a8ea-3f305222554b")
 	)
+	(hierarchical_label "FROMESP_IN_OUT-NPN_C"
+		(shape input)
+		(at 165.1 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8200588a-d4ee-4760-bf05-d8ef58b8ec6a")
+	)
 	(hierarchical_label "ESP32_UART_A"
 		(shape input)
 		(at 167.64 73.66 0)
@@ -2786,6 +2890,28 @@
 			(justify left)
 		)
 		(uuid "93ee54bc-ca48-4195-a0e8-c275c7053678")
+	)
+	(hierarchical_label "FROMESP_IN_OUT-NPN_A"
+		(shape input)
+		(at 165.1 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1ca45fd-2202-440d-883e-41b6a6252fed")
+	)
+	(hierarchical_label "FROMESP_IN_OUT-PNP_A"
+		(shape input)
+		(at 165.1 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4f8bc21-8523-4459-a418-62ae3e0c9cb1")
 	)
 	(hierarchical_label "FROMESP_OUT_IN-NPN_A"
 		(shape input)
