@@ -2338,6 +2338,26 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 68.58) (xy 160.02 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c306367-9406-411d-aafa-1e9afea50b66")
+	)
+	(wire
+		(pts
+			(xy 156.21 71.12) (xy 160.02 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c652961-ba65-4556-a330-7a1b69a81fda")
+	)
+	(wire
+		(pts
 			(xy 71.12 58.42) (xy 71.12 69.85)
 		)
 		(stroke
@@ -2869,6 +2889,17 @@
 		)
 		(uuid "7862f99f-795a-4990-a8ea-3f305222554b")
 	)
+	(hierarchical_label "RLY_A_INR"
+		(shape bidirectional)
+		(at 160.02 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e1ffce6-1d4f-481c-9e7b-1cfe2501e808")
+	)
 	(hierarchical_label "FROMESP_IN_OUT-NPN_C"
 		(shape input)
 		(at 165.1 101.6 0)
@@ -2879,6 +2910,17 @@
 			(justify left)
 		)
 		(uuid "8200588a-d4ee-4760-bf05-d8ef58b8ec6a")
+	)
+	(hierarchical_label "RLY_B_INR"
+		(shape bidirectional)
+		(at 160.02 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92b0a964-2ee8-4808-bcf7-a542106235cb")
 	)
 	(hierarchical_label "ESP32_UART_A"
 		(shape input)
