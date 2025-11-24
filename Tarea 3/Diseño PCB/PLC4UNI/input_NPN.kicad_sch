@@ -967,6 +967,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "NPN INPUT_D\n"
+		(exclude_from_sim no)
+		(at 203.2 28.702 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.3175)
+				(color 41 25 255 1)
+			)
+		)
+		(uuid "0377d71a-b053-41cb-b500-2edcc90c6395")
+	)
 	(text "NPN INPUT_A"
 		(exclude_from_sim no)
 		(at 61.468 28.702 0)
@@ -1007,6 +1020,12 @@
 		(uuid "cfcc8978-8355-4ac4-a1e5-e80438e4563f")
 	)
 	(junction
+		(at 203.2 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4aa56026-c7ca-4b10-b786-40f8103144cd")
+	)
+	(junction
 		(at 107.95 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1023,6 +1042,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef501e4c-2913-41c0-8d6f-3faecb657880")
+	)
+	(wire
+		(pts
+			(xy 203.2 48.26) (xy 208.28 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4ccf42-d312-4d13-981e-1d54f34da458")
 	)
 	(wire
 		(pts
@@ -1043,6 +1072,16 @@
 			(type default)
 		)
 		(uuid "136bd4ab-b0c2-48ca-9485-cadc6e9cc361")
+	)
+	(wire
+		(pts
+			(xy 195.58 36.83) (xy 195.58 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e713f8-7a52-4b60-b3a2-a54250a4fd25")
 	)
 	(wire
 		(pts
@@ -1136,6 +1175,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 63.5) (xy 195.58 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66593a7c-b82e-471c-a34b-0c09fb68dcdd")
+	)
+	(wire
+		(pts
 			(xy 96.52 63.5) (xy 100.33 63.5)
 		)
 		(stroke
@@ -1216,6 +1265,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 48.26) (xy 203.2 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "973941ef-0a10-4d0d-9376-8ca093d97ad1")
+	)
+	(wire
+		(pts
 			(xy 143.51 36.83) (xy 143.51 39.37)
 		)
 		(stroke
@@ -1223,6 +1282,16 @@
 			(type default)
 		)
 		(uuid "9ecee10b-d915-4f60-8717-132afd9a4881")
+	)
+	(wire
+		(pts
+			(xy 203.2 36.83) (xy 203.2 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7415357-5a79-45ef-86eb-ebbc5826e78e")
 	)
 	(wire
 		(pts
@@ -1256,6 +1325,36 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 46.99) (xy 195.58 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c26b70c3-3559-4a9a-90fb-3aab61c73181")
+	)
+	(wire
+		(pts
+			(xy 191.77 63.5) (xy 195.58 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d00572-d63c-4abe-9a5d-f3d3efa0e0b8")
+	)
+	(wire
+		(pts
+			(xy 203.2 59.69) (xy 203.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdbe7da1-ce31-403d-a83a-e118e325619b")
+	)
+	(wire
+		(pts
 			(xy 63.5 48.26) (xy 63.5 49.53)
 		)
 		(stroke
@@ -1276,6 +1375,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 46.99) (xy 203.2 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e57be84e-3eb1-4243-a076-ec2e9d7ebb4b")
+	)
+	(wire
+		(pts
 			(xy 151.13 36.83) (xy 151.13 39.37)
 		)
 		(stroke
@@ -1293,6 +1402,17 @@
 			(type default)
 		)
 		(uuid "e81a0646-a027-4d52-86e4-82a7fcad596b")
+	)
+	(hierarchical_label "OUT_NPN_D_IN"
+		(shape output)
+		(at 208.28 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10bf1b20-29ba-4851-bc61-2ea38f3819fa")
 	)
 	(hierarchical_label "IN_NPN_C_IN"
 		(shape input)
@@ -1315,6 +1435,17 @@
 			(justify left)
 		)
 		(uuid "41acbfe3-195d-4809-954d-8a2943313c4a")
+	)
+	(hierarchical_label "IN_NPN_D_IN"
+		(shape input)
+		(at 191.77 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4bf29d30-72c3-4b59-a021-3417e89f32f3")
 	)
 	(hierarchical_label "OUT_NPN_C_IN"
 		(shape output)
@@ -1359,6 +1490,219 @@
 			(justify right)
 		)
 		(uuid "d0f0b341-68b3-40da-b871-69973a37a916")
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:+3.3V")
+		(at 203.2 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "183f8ff8-e3b4-48b0-99b8-dba3bf56acac")
+		(property "Reference" "#PWR076"
+			(at 199.39 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 202.692 34.544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de51d59b-d963-4a49-94ef-0424186730a8")
+		)
+		(instances
+			(project "PLC4UNI"
+				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/16310002-096d-49db-8baf-b59f1f963118"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Optocoupler_AKL:FOD817S")
+		(at 199.39 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2460ec1d-1ffc-49a0-a753-4991f957303f")
+		(property "Reference" "OC12"
+			(at 205.994 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FOD817S"
+			(at 205.994 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Package_DIP_AKL:SMDIP-4_W9.53mm"
+			(at 194.31 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/3a0358906a5fcb3aa253d025de809a1d/FOD814300W.PDF"
+			(at 199.39 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMDIP-4 Optocoupler, Transistor output, 5kV, 8us, Alternate KiCAD Library"
+			(at 199.39 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2c95a89-3a8b-482e-99b1-3f8f76593726")
+		)
+		(pin "4"
+			(uuid "c811b735-77fb-461b-a8d1-7c051b56b943")
+		)
+		(pin "2"
+			(uuid "fcc50135-a72b-4fc2-8f7b-1b178f66fe32")
+		)
+		(pin "3"
+			(uuid "52665667-7aee-4152-8f05-0f633c9f45c7")
+		)
+		(instances
+			(project "PLC4UNI"
+				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/16310002-096d-49db-8baf-b59f1f963118"
+					(reference "OC12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 195.58 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f5d289b-31f2-48c7-81c4-93be6565439c")
+		(property "Reference" "R55"
+			(at 189.738 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.4K"
+			(at 189.738 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 195.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 195.58 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03e4cff0-ad95-44e4-8abc-2194e414040b")
+		)
+		(pin "1"
+			(uuid "ff9a5f30-d916-431c-ab4b-35ecd415808c")
+		)
+		(instances
+			(project "PLC4UNI"
+				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/16310002-096d-49db-8baf-b59f1f963118"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PCM_4ms_Power-symbol:GND")
@@ -1500,6 +1844,76 @@
 			(project "PLC4UNI"
 				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/16310002-096d-49db-8baf-b59f1f963118"
 					(reference "OC?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 203.2 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "620f0a5c-4481-410a-ab2d-4cc42da616b4")
+		(property "Reference" "R56"
+			(at 205.4981 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.4K"
+			(at 205.4981 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 203.2 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 203.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a7225dd-15b2-4ff7-8648-d7f446f84017")
+		)
+		(pin "1"
+			(uuid "f2679a3a-0845-4ca2-8d9e-895d296bca5f")
+		)
+		(instances
+			(project "PLC4UNI"
+				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/16310002-096d-49db-8baf-b59f1f963118"
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -1768,6 +2182,72 @@
 			(project "PLC4UNI"
 				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/16310002-096d-49db-8baf-b59f1f963118"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 195.58 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79615895-4d6f-4457-918b-573ca825aa10")
+		(property "Reference" "#PWR075"
+			(at 199.39 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 194.31 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 195.58 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abba39e7-b6ad-4e8a-aaf3-55ce21b3f6ba")
+		)
+		(instances
+			(project "PLC4UNI"
+				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/16310002-096d-49db-8baf-b59f1f963118"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -2327,6 +2807,73 @@
 			(project "PLC4UNI"
 				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/16310002-096d-49db-8baf-b59f1f963118"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:GND")
+		(at 203.2 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3e9fd7b-0288-4cb4-bf38-5ebc47d5f960")
+		(property "Reference" "#PWR077"
+			(at 209.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "217ddbf7-6e73-49df-bef5-9af0f21c7eb5")
+		)
+		(instances
+			(project "PLC4UNI"
+				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/16310002-096d-49db-8baf-b59f1f963118"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)

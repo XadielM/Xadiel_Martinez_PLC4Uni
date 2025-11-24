@@ -879,6 +879,19 @@
 		)
 		(uuid "1c041ab7-9607-44db-ab05-442b79ea51c8")
 	)
+	(text "PNP INPUT_D\n"
+		(exclude_from_sim no)
+		(at 60.706 95.25 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.3175)
+				(color 41 25 255 1)
+			)
+		)
+		(uuid "2cf509a3-7b54-4039-a19d-defe5a07d4d7")
+	)
 	(text "PNP INPUT_A"
 		(exclude_from_sim no)
 		(at 61.976 41.91 0)
@@ -912,6 +925,12 @@
 		(uuid "2f4292a6-51ed-4471-bf55-34d6f30e1f28")
 	)
 	(junction
+		(at 81.28 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63340ebc-54fa-4f1e-b1c3-c3faddc10693")
+	)
+	(junction
 		(at 148.59 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -942,6 +961,16 @@
 			(type default)
 		)
 		(uuid "13beeb28-fe44-4fca-92ce-39593d20d163")
+	)
+	(wire
+		(pts
+			(xy 81.28 111.76) (xy 81.28 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2438e187-5d31-4998-ac4f-94660672a17d")
 	)
 	(wire
 		(pts
@@ -982,6 +1011,26 @@
 			(type default)
 		)
 		(uuid "3d7e153a-b7b2-44b2-a1f3-7f257dc389a2")
+	)
+	(wire
+		(pts
+			(xy 72.39 110.49) (xy 73.66 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "464d3039-6496-41ac-9fed-245a42a143b0")
+	)
+	(wire
+		(pts
+			(xy 83.82 127) (xy 81.28 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ba0a34-48c2-4dc2-b9de-ad1ee5955583")
 	)
 	(wire
 		(pts
@@ -1075,6 +1124,36 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 110.49) (xy 73.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "707d6748-80a6-45c8-8d9b-6a5898f337a2")
+	)
+	(wire
+		(pts
+			(xy 68.58 127) (xy 73.66 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7caf71b1-e38e-4891-83c8-59d0f167f12c")
+	)
+	(wire
+		(pts
+			(xy 81.28 109.22) (xy 81.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd96a86-0ab4-46e8-99ee-67a50f5b5404")
+	)
+	(wire
+		(pts
 			(xy 203.2 59.69) (xy 203.2 63.5)
 		)
 		(stroke
@@ -1092,6 +1171,16 @@
 			(type default)
 		)
 		(uuid "89621534-0230-449a-8866-6d9a56df5b25")
+	)
+	(wire
+		(pts
+			(xy 81.28 99.06) (xy 81.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8979a4be-f8f8-4af6-94dd-9858fe389e1e")
 	)
 	(wire
 		(pts
@@ -1122,6 +1211,16 @@
 			(type default)
 		)
 		(uuid "99124b52-6c0b-417a-80df-4fcf7857d648")
+	)
+	(wire
+		(pts
+			(xy 81.28 111.76) (xy 90.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae6d70d2-442f-44f1-a491-ec46e5045b8f")
 	)
 	(wire
 		(pts
@@ -1175,6 +1274,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 127) (xy 81.28 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4722a9d-9961-45c2-a9f3-1733b0fbc201")
+	)
+	(wire
+		(pts
 			(xy 74.93 57.15) (xy 74.93 60.96)
 		)
 		(stroke
@@ -1202,6 +1311,16 @@
 			(type default)
 		)
 		(uuid "cc3a5930-effe-491b-96d6-3d155ac54727")
+	)
+	(wire
+		(pts
+			(xy 62.23 110.49) (xy 64.77 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5792a5-d50a-4099-a63d-b09763ffcf3f")
 	)
 	(wire
 		(pts
@@ -1253,6 +1372,16 @@
 		)
 		(uuid "f1221378-bea3-4487-a7c0-ae8abab3a158")
 	)
+	(wire
+		(pts
+			(xy 73.66 127) (xy 73.66 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f2f73d-b9ed-4621-a5f2-63911f1f7b9c")
+	)
 	(hierarchical_label "OUT_PNP_A_IN"
 		(shape output)
 		(at 91.44 58.42 0)
@@ -1286,6 +1415,28 @@
 		)
 		(uuid "46fc5c82-219a-4ec5-841c-9494695febb6")
 	)
+	(hierarchical_label "IN_PNP_D_IN"
+		(shape input)
+		(at 62.23 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6803c188-e72b-4ad1-b2ff-da2f365f797c")
+		(property "Netclass" ""
+			(at 62.23 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
 	(hierarchical_label "OUT_PNP_B_IN"
 		(shape output)
 		(at 157.48 59.69 0)
@@ -1307,6 +1458,17 @@
 			(justify right)
 		)
 		(uuid "b9f268e3-1b5e-4569-bae1-977007f91caa")
+	)
+	(hierarchical_label "OUT_PNP_D_IN"
+		(shape output)
+		(at 90.17 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd17c6e5-035f-4956-aa73-eac423c54919")
 	)
 	(hierarchical_label "IN_PNP_C_IN"
 		(shape input)
@@ -1391,6 +1553,73 @@
 			(project "PLC4UNI"
 				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/80a04f97-522b-4c03-8f09-5c43b84b1780"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 81.28 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07a818a6-df05-46c9-bcf2-884db5a7cb65")
+		(property "Reference" "#PWR079"
+			(at 81.28 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 83.82 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7cb64ce4-5082-493f-8c2e-cfbe95e8dcbf")
+		)
+		(instances
+			(project "PLC4UNI"
+				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/80a04f97-522b-4c03-8f09-5c43b84b1780"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -1533,6 +1762,76 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 81.28 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20d72ea4-8a7b-4b44-8640-f4994e010fd6")
+		(property "Reference" "R58"
+			(at 83.82 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.4K"
+			(at 83.82 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 81.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3849c084-242f-4531-bb6c-cd472325e9f1")
+		)
+		(pin "1"
+			(uuid "6291f0a3-e037-40fa-a085-adab42d04663")
+		)
+		(instances
+			(project "PLC4UNI"
+				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/80a04f97-522b-4c03-8f09-5c43b84b1780"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
 		(at 135.89 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1594,6 +1893,73 @@
 			(project "PLC4UNI"
 				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/80a04f97-522b-4c03-8f09-5c43b84b1780"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a44c8e3-8815-4dba-9d0a-e18221dc6a39")
+		(property "Reference" "#PWR080"
+			(at 90.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14de3794-f283-434c-bb94-ffa82b177351")
+		)
+		(instances
+			(project "PLC4UNI"
+				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/80a04f97-522b-4c03-8f09-5c43b84b1780"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -1679,6 +2045,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 68.58 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f890e42-17a5-462f-9b7a-20bc5c6c21d3")
+		(property "Reference" "#PWR078"
+			(at 62.23 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e75d64a1-9b3e-491e-aeb2-993dba2ccc98")
+		)
+		(instances
+			(project "PLC4UNI"
+				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/80a04f97-522b-4c03-8f09-5c43b84b1780"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Resistor_US_AKL:R_0603")
 		(at 82.55 52.07 180)
 		(unit 1)
@@ -1743,6 +2175,74 @@
 			(project "PLC4UNI"
 				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/80a04f97-522b-4c03-8f09-5c43b84b1780"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 68.58 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dc274e0-f635-4922-a75f-642a3ca18368")
+		(property "Reference" "R57"
+			(at 68.58 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.4K"
+			(at 68.58 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 80.01 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 68.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c12ea5a-f2d8-4c43-97bc-39c96705dbd9")
+		)
+		(pin "1"
+			(uuid "2f3f1776-34dc-43b3-a66a-6b3709a127d0")
+		)
+		(instances
+			(project "PLC4UNI"
+				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/80a04f97-522b-4c03-8f09-5c43b84b1780"
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -2226,6 +2726,85 @@
 			(project "PLC4UNI"
 				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/80a04f97-522b-4c03-8f09-5c43b84b1780"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Optocoupler_AKL:FOD817S")
+		(at 77.47 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc108cd1-4482-47ee-9a37-d131f7e16288")
+		(property "Reference" "OC13"
+			(at 85.09 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FOD817S"
+			(at 85.09 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Package_DIP_AKL:SMDIP-4_W9.53mm"
+			(at 72.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/3a0358906a5fcb3aa253d025de809a1d/FOD814300W.PDF"
+			(at 77.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMDIP-4 Optocoupler, Transistor output, 5kV, 8us, Alternate KiCAD Library"
+			(at 77.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1284c0e-a070-4428-b9d0-5774d7417a63")
+		)
+		(pin "2"
+			(uuid "012c7f94-bf84-448f-bf41-2adc81c668cb")
+		)
+		(pin "4"
+			(uuid "a467efa8-f0ce-4a14-8c73-608416af0e46")
+		)
+		(pin "3"
+			(uuid "2254ba77-e3dc-4d2d-8869-bc20025711a3")
+		)
+		(instances
+			(project "PLC4UNI"
+				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/80a04f97-522b-4c03-8f09-5c43b84b1780"
+					(reference "OC13")
 					(unit 1)
 				)
 			)
