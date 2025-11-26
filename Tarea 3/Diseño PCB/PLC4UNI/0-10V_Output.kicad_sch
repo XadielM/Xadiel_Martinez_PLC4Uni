@@ -953,16 +953,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 39.37) (xy 50.8 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45d644f1-cd4b-4658-b67b-9443f2aab07e")
-	)
-	(wire
-		(pts
 			(xy 80.01 72.39) (xy 80.01 64.77)
 		)
 		(stroke
@@ -1145,7 +1135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11f84a49-df88-4530-aab3-abb351b87bd1")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR0105"
 			(at 95.25 68.58 0)
 			(effects
 				(font
@@ -1195,7 +1185,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/ec8632aa-3218-45e0-ae7a-5e64b93ba420"
-					(reference "#PWR057")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -1210,7 +1200,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1309b166-4b27-457e-9a7d-0f14afce4ea8")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 73.66 80.01 90)
 			(effects
 				(font
@@ -1262,7 +1252,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/ec8632aa-3218-45e0-ae7a-5e64b93ba420"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)

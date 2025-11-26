@@ -9,6 +9,8 @@
 	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
+		(4 "In1.Cu" signal)
+		(6 "In2.Cu" signal)
 		(2 "B.Cu" signal)
 		(9 "F.Adhes" user "F.Adhesive")
 		(11 "B.Adhes" user "B.Adhesive")
@@ -34,9 +36,71 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In1.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 2"
+				(type "core")
+				(thickness 1.24)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In2.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 3"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
+		(grid_origin 63 115.5)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -99,13 +163,13 @@
 	(footprint "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-18P_1x18_P5.00mm"
 		(layer "F.Cu")
 		(uuid "a7371af5-d772-49f7-8ca2-a98aa06b65e8")
-		(at 70.5 112.9675)
+		(at 71 111.5)
 		(descr "terminal block MaiXu MX126-5.0-18P, 18 pins, pitch 5mm, size 90.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu")
 		(tags "THT terminal block MaiXu MX126-5.0-18P pitch 5mm size 90.5x7.8mm drill 1.3mm pad 2.8mm")
 		(property "Reference" "J2"
 			(at 42.25 -5.12 0)
 			(layer "F.SilkS")
-			(uuid "89f49fa4-159c-468f-b0d4-e9cee53cfec0")
+			(uuid "5b072a22-43c0-4d60-ac73-5a41c210b2c6")
 			(effects
 				(font
 					(size 1 1)
@@ -116,7 +180,7 @@
 		(property "Value" "Screw_Terminal_01x18"
 			(at 42.25 4.92 0)
 			(layer "F.Fab")
-			(uuid "ffa8c031-35f8-4969-96cb-96b1013aa330")
+			(uuid "85a8a9bc-65e5-41ac-8e64-b35f69ee1694")
 			(effects
 				(font
 					(size 1 1)
@@ -128,7 +192,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ef8fb70-4a17-4530-9f51-fe1426846c1c")
+			(uuid "8fda7894-92a0-44fc-8712-9212d548f0df")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -140,7 +204,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a6dfd66c-75b5-40cd-9f15-e0c2be8521f3")
+			(uuid "eef48dd8-c4ca-43d9-bf97-09decc983325")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1667,7 +1731,7 @@
 	(footprint "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-18P_1x18_P5.00mm"
 		(layer "F.Cu")
 		(uuid "c7c22c10-1408-4570-ad3b-1be358b525d5")
-		(at 70 39.5)
+		(at 71 39.5)
 		(descr "terminal block MaiXu MX126-5.0-18P, 18 pins, pitch 5mm, size 90.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu")
 		(tags "THT terminal block MaiXu MX126-5.0-18P pitch 5mm size 90.5x7.8mm drill 1.3mm pad 2.8mm")
 		(property "Reference" "J2"
@@ -9056,8 +9120,8 @@
 		(uuid "3d41279a-44d0-4e83-a830-9825a7a27eb9")
 	)
 	(gr_line
-		(start 62.895476 81.1)
-		(end 62.895476 115.682919)
+		(start 63 80.917081)
+		(end 63 115.5)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -9108,8 +9172,8 @@
 		(uuid "5bc13104-0009-4bb9-acf2-777efc74ae62")
 	)
 	(gr_line
-		(start 62.895476 115.682919)
-		(end 162.822014 115.682919)
+		(start 63 115.5)
+		(end 162.926538 115.5)
 		(stroke
 			(width 0.2)
 			(type default)

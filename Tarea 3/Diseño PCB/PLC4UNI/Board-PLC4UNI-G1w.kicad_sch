@@ -539,6 +539,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 92.71) (xy 198.12 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c6f0c1e-e51d-4244-9e09-4ed876f60cc3")
+	)
+	(wire
+		(pts
 			(xy 134.62 105.41) (xy 134.62 101.6)
 		)
 		(stroke
@@ -679,6 +689,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 104.14) (xy 201.93 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c56470-6f8b-4d47-9e38-49e2771ca2be")
+	)
+	(wire
+		(pts
 			(xy 118.11 35.56) (xy 120.65 35.56)
 		)
 		(stroke
@@ -716,6 +736,16 @@
 			(type default)
 		)
 		(uuid "d432bc0d-3955-41a3-9fd3-f2baba70dd7e")
+	)
+	(wire
+		(pts
+			(xy 198.12 92.71) (xy 198.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4930d47-a80d-4d57-866c-f640455b84a7")
 	)
 	(wire
 		(pts
@@ -1450,6 +1480,16 @@
 		(pin "FROMESP_Voltage_Input" input
 			(at 194.31 80.01 0)
 			(uuid "4fc4782f-4d8c-4be6-bd66-5cd996c9936d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FROMESP_4-20mA_Input" input
+			(at 194.31 92.71 0)
+			(uuid "58b32be2-6c85-4082-be53-624823d08cad")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1548,12 +1548,6 @@
 		(uuid "23e68009-7197-4144-bdef-ad0d7e359c02")
 	)
 	(junction
-		(at 135.89 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b891206-a016-494a-92c3-e36583d4fb0d")
-	)
-	(junction
 		(at 138.43 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1660,16 +1654,6 @@
 			(type default)
 		)
 		(uuid "245dc951-0d54-479b-968d-05f9cc0e0e6c")
-	)
-	(wire
-		(pts
-			(xy 135.89 83.82) (xy 135.89 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b8291b0-a2d2-46c7-a259-93c4c6b72ce2")
 	)
 	(wire
 		(pts
@@ -1913,7 +1897,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 85.09) (xy 138.43 85.09)
+			(xy 132.08 85.09) (xy 138.43 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1973,16 +1957,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 85.09) (xy 135.89 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e567fbcf-28cb-4856-820f-d332d7498f35")
-	)
-	(wire
-		(pts
 			(xy 119.38 80.01) (xy 119.38 85.09)
 		)
 		(stroke
@@ -2000,16 +1974,6 @@
 			(justify left bottom)
 		)
 		(uuid "9f8b3e00-faae-4612-91c7-423c1acc65fa")
-	)
-	(label "vout"
-		(at 135.89 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd48c1ce-4347-472e-b8d1-edb82eb3213e")
 	)
 	(symbol
 		(lib_id "Device:L_Iron")
