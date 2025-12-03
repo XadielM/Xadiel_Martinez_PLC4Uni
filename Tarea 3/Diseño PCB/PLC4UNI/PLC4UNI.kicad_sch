@@ -1792,7 +1792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-18P_1x18_P5.00mm"
 			(at 85.09 71.12 0)
 			(effects
 				(font
@@ -2177,7 +2177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-18P_1x18_P5.00mm"
 			(at 156.21 71.12 0)
 			(effects
 				(font

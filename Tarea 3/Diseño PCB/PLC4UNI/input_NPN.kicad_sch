@@ -1780,7 +1780,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f7f99ba-557e-429d-a167-04152a27127b")
-		(property "Reference" "OC?"
+		(property "Reference" "OC15"
 			(at 66.294 53.34 0)
 			(effects
 				(font
@@ -1843,7 +1843,7 @@
 		(instances
 			(project "PLC4UNI"
 				(path "/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/16310002-096d-49db-8baf-b59f1f963118"
-					(reference "OC?")
+					(reference "OC15")
 					(unit 1)
 				)
 			)

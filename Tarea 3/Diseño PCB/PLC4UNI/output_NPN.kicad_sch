@@ -2269,7 +2269,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 78.74 146.05 0)
 			(effects
 				(font
@@ -2702,7 +2702,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 76.2 62.23 0)
 			(effects
 				(font
@@ -3411,7 +3411,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 184.15 132.08 0)
 			(effects
 				(font
@@ -5149,7 +5149,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 165.1 60.96 0)
 			(effects
 				(font
