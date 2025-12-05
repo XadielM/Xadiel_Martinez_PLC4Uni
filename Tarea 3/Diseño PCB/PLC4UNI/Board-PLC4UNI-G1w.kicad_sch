@@ -2419,7 +2419,7 @@
 				(justify right)
 			)
 		)
-		(pin "UART_IN" input
+		(pin "UART_IN" bidirectional
 			(at 201.93 50.8 180)
 			(uuid "7873f45d-c5e2-4927-ba3e-5773f29c0a8e")
 			(effects
@@ -2429,7 +2429,7 @@
 				(justify left)
 			)
 		)
-		(pin "UART_OUT" output
+		(pin "UART_OUT" bidirectional
 			(at 201.93 53.34 180)
 			(uuid "1957f83a-a352-4c63-b5f5-17ad251eee42")
 			(effects
