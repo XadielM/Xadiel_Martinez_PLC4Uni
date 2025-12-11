@@ -245,12 +245,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "unconnected_wire_endpoint|1765300|1079500|6de3679e-230f-4302-bce6-0aaf652fd938|00000000-0000-0000-0000-000000000000|/acad40d5-ac6b-4a60-8788-299f56574d0c/b188dc46-3024-4793-8d80-b9402d6c0212/0abc54fd-64d8-4166-84c0-cb5e26dc216c||",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
